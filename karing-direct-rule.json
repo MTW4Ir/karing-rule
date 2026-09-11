@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "outbound": "direct",
+      "name": "歌曲宝直连",
+      "switch": true,
+      "or": false,
+      "domain_suffix": [
+        "gequbao.com",
+        "aizhantj.com"
+      ]
+    },
+    {
+      "outbound": "direct",
+      "name": "WorldFirst直连",
+      "switch": true,
+      "or": false,
+      "domain_suffix": [
+        "worldfirst.com"
+      ]
+    },
+    {
+      "outbound": "direct",
+      "name": "歌曲宝直连-关键词兜底",
+      "switch": false,
+      "or": false,
+      "domain_keyword": [
+        "gequbao"
+      ]
+    }
+  ]
+}
