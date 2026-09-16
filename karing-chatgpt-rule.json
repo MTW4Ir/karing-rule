@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "outbound": "proxy",
+      "name": "ChatGPT代理",
+      "switch": true,
+      "or": false,
+      "domain_suffix": [
+        "openai.com",
+        "chatgpt.com",
+        "openaiusercontent.com"
+      ]
+    }
+  ]
+}
