@@ -22,11 +22,11 @@
     },
     {
       "outbound": "direct",
-      "name": "WorldFirst直连",
+      "name": "域名直连",
       "switch": true,
       "or": false,
       "domain_suffix": [
-        "worldfirst1.com"
+        "hifini.net"
       ]
     },
     {
@@ -45,15 +45,6 @@
       "or": false,
       "domain_keyword": [
         "hifini"
-      ]
-    }，
-    {
-      "outbound": "direct",
-      "name": "其他域名直接",
-      "switch": true,
-      "or": false,
-      "domain_suffix": [
-        "hifini.net"
       ]
     }
   ]
