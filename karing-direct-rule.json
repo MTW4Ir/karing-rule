@@ -37,6 +37,24 @@
       "domain_keyword": [
         "gequbao"
       ]
+    },
+    {
+      "outbound": "direct",
+      "name": "其他关键字直接",
+      "switch": false,
+      "or": false,
+      "domain_keyword": [
+        "hifini"
+      ]
+    }，
+    {
+      "outbound": "direct",
+      "name": "其他域名直接",
+      "switch": true,
+      "or": false,
+      "domain_suffix": [
+        "hifini.net"
+      ]
     }
   ]
 }
